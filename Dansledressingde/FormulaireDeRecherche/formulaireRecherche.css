@@ -1,0 +1,32 @@
+.formulaire{
+	display: inline-block;
+	border:1px solid #ABABAB;
+	padding:3px 5px;
+	border-radius: 2em;
+	box-shadow: 0 2px 0 rgba(0,0,0,.1);
+	background:#fbfbfb;
+	background: -webkit-linear-gradient(top,#ffffff,#d4d4d4);
+	background: -webkit-linear-gradient(top,#ffffff,#d4d4d4);
+}
+
+.formulaire .champ{
+	background: #FFF;
+	padding: 5px 5px 5px 5px ;
+	width:300px;
+	border:1px solid #ABABAB;
+	border-radius: 2em;
+	box-shadow:inset 0 2px 0 rgba(0,0,0,.1);
+
+}
+
+.formulaire .button{
+	color:#FFF;
+	border:1px solid #3F3F3F;
+	font-size: 13px;
+	height:28px;
+	width: 28px;
+	border-radius: 2em;
+	background: -webkit-linear-gradient(top,#636363,#454444);
+	background: -webkit-linear-gradient(top,#636363,#454444);
+	font-weight: bold;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Formulaire de Recherche en CSS3</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<link rel="stylesheet" href="formulaireRecherche.css">
+	</head>
+
+	<body>
+		<div class="header">
+			<divclass="wrap">
+				<h1>Formulaire de Recherche en CSS3</h1>
+			</div>
+		</div>
+
+		<div class="wrap">
+			<div class="content">
+				<div="exemple">
+					<form action="" class="formulaire">
+						<input class="champ" type="text" placeholder="une recherche...">
+						<input class="button" type="button" value="go">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

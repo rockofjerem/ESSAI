@@ -1,0 +1,33 @@
+*{
+	background-color: #FFCCCC;
+}
+
+span,em{
+	color: red;
+}
+
+h1{
+	color: #B1030F;
+	font-family: apple-chancery, Monotype Corsiva, Cambria, Arial; /*prends la première police, si elle n'existe pas prends la deuxième etc...*/
+	font-style: normal;
+}
+
+
+input:required{
+	background: url(asterisque.gif) 99% center no-repeat ;
+    background-size: 7%;
+    border-radius: 5px;
+}
+
+input:focus:invalid{
+	background-image: none;
+	border-color: #FF0000;
+}
+
+input:focus:valid{
+	border-color: #00FF00;
+}
+
+input:valid{
+	background-image: none;
+}
